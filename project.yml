@@ -1,0 +1,38 @@
+name: NetVitals
+options:
+  bundleIdPrefix: com.anurag
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+
+settings:
+  SWIFT_VERSION: "5.9"
+  MACOSX_DEPLOYMENT_TARGET: "14.0"
+  ENABLE_HARDENED_RUNTIME: YES
+  PRODUCT_NAME: NetVitals
+
+targets:
+  NetVitals:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources
+      - path: Resources
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.anurag.NetVitals
+      INFOPLIST_FILE: Resources/Info.plist
+      GENERATE_INFOPLIST_FILE: NO
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      COMBINE_HIDPI_IMAGES: YES
+      LSUIElement: false
+    info:
+      path: Resources/Info.plist
+      properties:
+        CFBundleDisplayName: NetVitals
+        CFBundleName: NetVitals
+        CFBundleIdentifier: com.anurag.NetVitals
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+        LSMinimumSystemVersion: "14.0"
+        NSHighResolutionCapable: true

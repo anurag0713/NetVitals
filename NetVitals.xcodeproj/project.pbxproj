@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BFC54126A5428D0B910698B /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A96CA4ABEAFB9FA6989AC /* MainWindowView.swift */; };
+		258630DF8EE629944D78825F /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCEF6C4EAA7F8285D3E1814 /* NetworkMonitor.swift */; };
+		2BCCE3A39034119462BAA5AC /* MenuBarLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844589D7419A2169B35E12E /* MenuBarLabelView.swift */; };
+		6812055F3826FB6D0D6F5083 /* NetVitalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807CDF787079627B09B1EE05 /* NetVitalsApp.swift */; };
+		8FEF361E9C9F012662450A32 /* MenuBarPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FDDC1E4241389FDF683945 /* MenuBarPopoverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D7A96CA4ABEAFB9FA6989AC /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		4844589D7419A2169B35E12E /* MenuBarLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarLabelView.swift; sourceTree = "<group>"; };
+		807CDF787079627B09B1EE05 /* NetVitalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetVitalsApp.swift; sourceTree = "<group>"; };
+		8CCEF6C4EAA7F8285D3E1814 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		A5FDDC1E4241389FDF683945 /* MenuBarPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPopoverView.swift; sourceTree = "<group>"; };
+		B876A7D8CEEB8CBF70255833 /* NetVitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetVitals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D359D0839D9B3106B5F6D0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A9245E8B08D4CCA9C5B7B3F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				807CDF787079627B09B1EE05 /* NetVitalsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		189610C06A9DC42F12DE8E1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D359D0839D9B3106B5F6D0CF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2658E3302789939921F21F6C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0A9245E8B08D4CCA9C5B7B3F /* App */,
+				74461B041BDD55BD67CF28DF /* Core */,
+				7E047418B706123C887E8056 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		74461B041BDD55BD67CF28DF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8CCEF6C4EAA7F8285D3E1814 /* NetworkMonitor.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7C5DFE559D7C21A65CE2A4CA = {
+			isa = PBXGroup;
+			children = (
+				189610C06A9DC42F12DE8E1D /* Resources */,
+				2658E3302789939921F21F6C /* Sources */,
+				E69286AF6EC345540C49E42B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E047418B706123C887E8056 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A96CA4ABEAFB9FA6989AC /* MainWindowView.swift */,
+				4844589D7419A2169B35E12E /* MenuBarLabelView.swift */,
+				A5FDDC1E4241389FDF683945 /* MenuBarPopoverView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E69286AF6EC345540C49E42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B876A7D8CEEB8CBF70255833 /* NetVitals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2704BCD480B128DFE406E0 /* NetVitals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7CD0B157460D36BB0C9619 /* Build configuration list for PBXNativeTarget "NetVitals" */;
+			buildPhases = (
+				E1E9D9F92756B36E0E26ADD6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetVitals;
+			packageProductDependencies = (
+			);
+			productName = NetVitals;
+			productReference = B876A7D8CEEB8CBF70255833 /* NetVitals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5410CAFB7AED4A4F4F7FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 426A6A9751CAED62D9DCD89B /* Build configuration list for PBXProject "NetVitals" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7C5DFE559D7C21A65CE2A4CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E69286AF6EC345540C49E42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2704BCD480B128DFE406E0 /* NetVitals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E9D9F92756B36E0E26ADD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFC54126A5428D0B910698B /* MainWindowView.swift in Sources */,
+				2BCCE3A39034119462BAA5AC /* MenuBarLabelView.swift in Sources */,
+				8FEF361E9C9F012662450A32 /* MenuBarPopoverView.swift in Sources */,
+				6812055F3826FB6D0D6F5083 /* NetVitalsApp.swift in Sources */,
+				258630DF8EE629944D78825F /* NetworkMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FABEC139DC6577781C045F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = NetVitals;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		92C731909C26AE80C14DA3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = NetVitals;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		E65A5B54AB91391B43A15FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LSUIElement = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.NetVitals;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA541B659846C278D0C5235B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LSUIElement = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anurag.NetVitals;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426A6A9751CAED62D9DCD89B /* Build configuration list for PBXProject "NetVitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C731909C26AE80C14DA3C4 /* Debug */,
+				4FABEC139DC6577781C045F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D7CD0B157460D36BB0C9619 /* Build configuration list for PBXNativeTarget "NetVitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA541B659846C278D0C5235B /* Debug */,
+				E65A5B54AB91391B43A15FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC5410CAFB7AED4A4F4F7FE5 /* Project object */;
+}
